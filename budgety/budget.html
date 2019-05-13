@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Budety</title>
+	<link rel="stylesheet" href="budgety.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="top">
+
+<div class="month">
+	Available budget in month
+</div>
+<div class="balanceamount"> 55555</div>
+<div class="incomediv">
+<label class="incomelabel" id="income_label">Income</label>	
+<div class="expenseSide">	
+<div class="incomeamount">10000</div>
+<div class="incomepercent">&nbsp</div>
+</div>
+</div>
+
+<div class="expensediv">
+<label class="expenselabel">Expenses</label>
+<div class="expenseSide">	
+<div class="expenseamount">5000</div>
+<div class="expensepercent">25%</div>
+</div>
+</div>
+
+
+	</div>
+
+
+<div class="bottom">
+<div class="boxes">
+	
+<select class="combo">
+<option value="inc" selected>+</option>	
+<option value="exp">-</option>
+</select>
+<input id="description_id" class="description" placeholder="Description">
+<input id="value_id" class="value" placeholder="Amount">
+<button id="add " class="btn"><i class="ion-ios-checkmark-outline"></i></button>
+</div>
+ <div class="container clearfix">
+                <div class="income">
+                    <h2 class="income__title">Income</h2>
+                    
+                    <div class="income__list">  
+                    <ul id="ulinc" class="ulincome"></ul>
+                    
+                    </div>
+                </div>
+                
+                
+                
+                <div class="expenses">
+                    <h2 class="expenses__title">Expenses</h2>
+                    
+                    <div class="expenses__list">
+</div>
+
+
+<script type="text/javascript" src="budgety.js"></script>
+</body>
+</html>

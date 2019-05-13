@@ -1,0 +1,176 @@
+body{
+	margin: 0px;
+}
+
+
+.top{
+	height: 40vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(budgety.png);
+    background-size: cover;
+    background-position: center;
+}
+.month{
+	color:white;
+	font-size: 24px;
+	position: relative;
+	top:40px;
+	left:550px;
+}
+.balanceamount{
+color:white;
+font-family: cursive;
+	font-size: 48px;
+	position: relative;
+	top:50px;
+	left:600px;
+    letter-spacing: 2px;
+}
+
+.incomediv{
+	    height: 45px;
+    width: 350px;
+    position: relative;
+    top: 56px;
+    left: 504px;
+    background-color: #28B9B5;
+}
+
+.incomelabel{
+	    margin-left: 10px;
+    position: relative;
+    top: 12px;
+    text-transform: uppercase;
+}
+
+.expensediv{
+	    height: 45px;
+    width: 350px;
+    position: relative;
+    top: 66px;
+    left: 504px;
+    background-color: #FF5049;
+}
+
+.expenselabel{
+	    margin-left: 10px;
+    position: relative;
+    top: 12px;
+    text-transform: uppercase;
+}
+
+.expenseSide{
+	display: inline-block;
+	color: white;
+	float: right;
+}
+.incomeamount{
+    float: left;
+	letter-spacing: 2px;
+	padding: 10px;
+	font-size: 20px;
+	width: 50px;	
+}
+
+.expenseamount{
+	float: left;
+	letter-spacing: 2px;
+	padding: 10px;
+	font-size: 20px;
+	width: 50px;
+}
+.incomepercent{
+	    float: right;
+    top: 11px;
+    position: relative;
+    right: 5px;
+width:38px;
+}
+.expensepercent{
+	    float: right;
+    top: 11px;
+    position: relative;
+    right: 5px;
+}
+
+.bottom{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.boxes{
+	    background-color: #f7f7f7;
+	    padding:14px;
+	    border-bottom: 1px solid #e7e7e7;;
+}
+.total{
+position: relative;
+padding: 12px;	
+}
+
+.combo{
+left: 390px;
+width: 60px;
+    position: relative;
+padding: 12px;
+}
+.description{
+	left: 400px;
+	width:350px;
+	padding: 12px;
+    position: relative;
+padding: 12px;
+}
+
+.value{
+	left:408px;
+	width:80px;
+    position: relative;
+padding: 12px;
+}
+.btn{
+    position: relative;
+padding: 12px;
+	    left: 412px;
+    width: 30px;
+    border: none;
+    background: none;
+    font-size: 30px;
+    vertical-align: middle;
+    color: #28B9B5;
+    cursor: pointer;
+}
+.btn:focus { outline: none; }
+.btn:active { transform: translate(2px); }
+
+
+.container {
+    width: 1000px;
+    margin: 60px auto;
+}
+
+.income {
+    float: left;
+    width: 475px;
+    margin-right: 50px;
+}
+
+.expenses {
+    float: left;
+    width: 475px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.income__title { color: #28B9B5; }
+.expenses__title { color: #FF5049; }
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
